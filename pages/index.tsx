@@ -1,19 +1,19 @@
-import { getAllPosts, PostMeta } from "@/src/api";
-import Articles from "@/src/components/articles";
+import { getAllEssays, PostMeta } from "@/src/api";
+import Articles from "@/src/components/essays";
 
-export default function Home({ posts }: { posts: PostMeta[] }) {
+export default function Home({ essays }: { essays: PostMeta[] }) {
   return (
     <>
-      <h1>Articles</h1>
-      <Articles posts={posts} />
+      <h1>Essays</h1>
+      <Articles essays={essays} />
     </>
   );
 }
 
 export async function getStaticProps() {
-  const posts = getAllPosts()
+  const essays = getAllEssays()
     .slice(0, 9)
     .map((post) => post.meta);
 
-  return { props: { posts } };
+  return { props: { essays } };
 }

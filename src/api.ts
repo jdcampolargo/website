@@ -3,10 +3,10 @@ import fs from "fs";
 import { sync } from "glob";
 import matter from "gray-matter";
 
-const POSTS_PATH = path.join(process.cwd(), "posts");
+const ESSAYS_PATH = path.join(process.cwd(), "essays");
 
 export const getSlugs = (): string[] => {
-  const paths = sync(`${POSTS_PATH}/*.mdx`);
+  const paths = sync(`${ESSAYS_PATH}/*.mdx`);
 
   return paths.map((path) => {
     const parts = path.split("/");
@@ -16,8 +16,8 @@ export const getSlugs = (): string[] => {
   });
 };
 
-export const getAllPosts = () => {
-  const posts = getSlugs()
+export const getAllEssays = () => {
+  const essays = getSlugs()
     .map((slug) => getPostFromSlug(slug))
     .sort((a, b) => {
       if (a.meta.date > b.meta.date) return 1;
@@ -25,7 +25,7 @@ export const getAllPosts = () => {
       return 0;
     })
     .reverse();
-  return posts;
+  return essays;
 };
 
 interface Post {
@@ -42,7 +42,7 @@ export interface PostMeta {
 }
 
 export const getPostFromSlug = (slug: string): Post => {
-  const postPath = path.join(POSTS_PATH, `${slug}.mdx`);
+  const postPath = path.join(ESSAYS_PATH, `${slug}.mdx`);
   const source = fs.readFileSync(postPath);
   const { content, data } = matter(source);
 

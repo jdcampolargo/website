@@ -1,14 +1,14 @@
 import type { GetStaticProps, GetStaticPaths } from "next";
 import Head from "next/head";
-import { getAllPosts, PostMeta } from "@/src/api";
-import Articles from "@/src/components/articles";
+import { getAllEssays, PostMeta } from "@/src/api";
+import Essays from "@/src/components/essays";
 
 export default function TagPage({
   slug,
-  posts,
+  essays,
 }: {
   slug: string;
-  posts: PostMeta[];
+  essays: PostMeta[];
 }) {
   return (
     <>
@@ -16,26 +16,26 @@ export default function TagPage({
         <title>Tag: {slug}</title>
       </Head>
       <h1>Tag: {slug}</h1>
-      <Articles posts={posts} />
+      <Essays essays={essays} />
     </>
   );
 }
 
 export const getStaticProps: GetStaticProps = async ({ params }) => {
   const { slug } = params as { slug: string };
-  const posts = getAllPosts().filter((post) => post.meta.tags.includes(slug));
+  const essays = getAllEssays().filter((post) => post.meta.tags.includes(slug));
 
   return {
     props: {
       slug,
-      posts: posts.map((post) => post.meta),
+      essays: essays.map((post) => post.meta),
     },
   };
 };
 
 export const getStaticPaths: GetStaticPaths = async () => {
-  const posts = getAllPosts();
-  const tags = new Set(posts.map((post) => post.meta.tags).flat());
+  const essays = getAllEssays();
+  const tags = new Set(essays.map((post) => post.meta.tags).flat());
   const paths = Array.from(tags).map((tag) => ({ params: { slug: tag } }));
 
   return {
