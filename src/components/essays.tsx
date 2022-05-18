@@ -8,7 +8,7 @@ export default function Essays({ essays }: { essays: PostMeta[] }) {
       {essays.map((post) => (
         <li key={post.slug}>
           <div className={styles.title}>
-            <Link href={`/essays/${post.slug}`}>{post.title}</Link>
+            <Link href={`/blog/${post.slug}`}>{post.title}</Link>
           </div>
           <p>{post.excerpt}</p>
           <p className={styles.tags}>

@@ -431,7 +431,21 @@
   "resolved" "https://registry.npmjs.org/@types/prop-types/-/prop-types-15.7.4.tgz"
   "version" "15.7.4"
 
-"@types/react@^17.0.38":
+"@types/react-hamburger-menu@^0.0.4":
+  "integrity" "sha512-Px9Qd/+ux/AjBu8/GIkY1Kf+U09YUbC9HWRLDKnghic/P5CpeMhZTi3mwnSct1E0xqyXn+VTFuZi1w2gTEktcQ=="
+  "resolved" "https://registry.npmjs.org/@types/react-hamburger-menu/-/react-hamburger-menu-0.0.4.tgz"
+  "version" "0.0.4"
+  dependencies:
+    "@types/react" "*"
+
+"@types/react-sidebar@^3.0.2":
+  "integrity" "sha512-6ABhGhwv78nZVcHntCkq3ky7qOzKttyfhmEletO0BMkBUVl1+TlJMr6ficypIS8B+lSojLTnM+tQeydtMRRciQ=="
+  "resolved" "https://registry.npmjs.org/@types/react-sidebar/-/react-sidebar-3.0.2.tgz"
+  "version" "3.0.2"
+  dependencies:
+    "@types/react" "*"
+
+"@types/react@*", "@types/react@^17.0.38":
   "integrity" "sha512-SI92X1IA+FMnP3qM5m4QReluXzhcmovhZnLNm3pyeQlooi02qI7sLiepEYqT678uNiyc25XfCqxREFpy3W7YhQ=="
   "resolved" "https://registry.npmjs.org/@types/react/-/react-17.0.38.tgz"
   "version" "17.0.38"
@@ -1643,6 +1657,11 @@
     "section-matter" "^1.0.0"
     "strip-bom-string" "^1.0.0"
 
+"hamburger-react@^2.5.0":
+  "integrity" "sha512-5GSXe+ucxTPJ0SkhIsPQ/PRDweZPIKya1lfahAuExx31SdheeUA4uOPfQIAirbKona8hvo79VDr5LJQzPXsdpw=="
+  "resolved" "https://registry.npmjs.org/hamburger-react/-/hamburger-react-2.5.0.tgz"
+  "version" "2.5.0"
+
 "has-bigints@^1.0.1":
   "integrity" "sha512-LSBS2LjbNBTf6287JEbEzvJgftkF5qFkmCo9hDRpAzKhUOlJ+hx8dd4USs00SgsUNwc4617J9ki5YtEClM2ffA=="
   "resolved" "https://registry.npmjs.org/has-bigints/-/has-bigints-1.0.1.tgz"
@@ -2681,7 +2700,7 @@
   "resolved" "https://registry.npmjs.org/react-refresh/-/react-refresh-0.8.3.tgz"
   "version" "0.8.3"
 
-"react@^16.13.1 || ^17.0.0", "react@^16.8.0 || ^17.0.0", "react@^17.0.2 || ^18.0.0-0", "react@>= 16.8.0 || 17.x.x || 18.x.x", "react@>=16.x <=17.x", "react@17.0.2":
+"react@^16.13.1 || ^17.0.0", "react@^16.8 || ^17 || ^18", "react@^16.8.0 || ^17.0.0", "react@^17.0.2 || ^18.0.0-0", "react@>= 16.8.0 || 17.x.x || 18.x.x", "react@>=16.x <=17.x", "react@17.0.2":
   "integrity" "sha512-gnhPt75i/dq/z3/6q/0asP78D0u592D5L1pd7M8P+dck6Fu/jJeL6iVVK23fptSUZj8Vjf++7wXA8UNclGQcbA=="
   "resolved" "https://registry.npmjs.org/react/-/react-17.0.2.tgz"
   "version" "17.0.2"

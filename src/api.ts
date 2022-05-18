@@ -3,7 +3,7 @@ import fs from "fs";
 import { sync } from "glob";
 import matter from "gray-matter";
 
-const ESSAYS_PATH = path.join(process.cwd(), "essays");
+const ESSAYS_PATH = path.join(process.cwd(), "blog");
 
 export const getSlugs = (): string[] => {
   const paths = sync(`${ESSAYS_PATH}/*.mdx`);
@@ -16,15 +16,20 @@ export const getSlugs = (): string[] => {
   });
 };
 
+
+
 export const getAllEssays = () => {
   const essays = getSlugs()
     .map((slug) => getPostFromSlug(slug))
-    .sort((a, b) => {
-      if (a.meta.date > b.meta.date) return 1;
-      if (a.meta.date < b.meta.date) return -1;
+    .sort((postOne, postTwo) => {
+      const postDate1 = new Date(postOne.meta.date);
+      const postDate2 = new Date(postTwo.meta.date);
+
+      if(postDate1.getTime() > postDate2.getTime()) return 1;
+      if(postDate1.getTime() < postDate2.getTime()) return -1;
       return 0;
-    })
-    .reverse();
+  })
+  .reverse();
   return essays;
 };
 

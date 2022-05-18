@@ -10,12 +10,19 @@ body {
 }
 
 a {
-  color: #c3ff00;
+  color: #b7ff00;
   text-decoration: none;
 }
 
 * {
   box-sizing: border-box;
+}
+
+.zapato {
+  font-size: 1.5rem;
+  margin: 10;
+  padding: 10;
+  padding-top: 2rem;
 }
 
 .container {
@@ -24,6 +31,49 @@ a {
   padding: 1rem;
 }
 
+
+
 nav {
+  align-items: left;
   padding-bottom: 2rem;
+  margin: 0 auto;
+  max-width: 400px;
+  display: flex;
+  justify-content: space-between;
 }
+
+h1 {
+  font-size: 3rem;
+  margin: 10;
+  padding: 10;
+}
+
+
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 800px;
+  color: white;
+  font-size: 1.5rem;
+}
+
+footer{
+  border-top: 1px solid #dddddd;
+  padding-top: 1em;
+  padding-bottom: 1.5em;
+  font-size: 1em;
+  text-align: center;
+  color: #dddddd;
+  display: center;
+  justify-content: center;
+  align-items: center;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  margin-top: 0.5em;
+  font: 80%/1.5em "Permanent Maker", Helvetica, sans-serif;
+  }
+
+

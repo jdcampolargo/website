@@ -27,6 +27,8 @@ export default function PostPage({ post }: { post: MDXPost }) {
   );
 }
 
+
+
 export const getStaticProps: GetStaticProps = async ({ params }) => {
   const { slug } = params as { slug: string };
   const { content, meta } = getPostFromSlug(slug);
