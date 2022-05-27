@@ -52,10 +52,19 @@ header {
   padding: 0;
   margin-top: 50px;
   margin-left: 335px;
-
+}
+@media all and (max-width : 720px) {
+  header {
+    margin-left: 18px;
+  }
+  .index {
+    margin-left: 30px;
+  }
 }
 
-
+.index {
+  margin-left: 70px;
+}
 
 
 /* nav {
