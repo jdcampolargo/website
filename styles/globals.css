@@ -182,3 +182,24 @@ blockquote {
   margin-top:-10px;
   margin-bottom:-10px;
 } */
+
+figcaption {
+color: var(--print_secondary, #666666);
+font-family: sans-serif;
+text-align: left;
+font-size: 14px;
+font-weight: 300;
+line-height: 1.4em;
+margin-top: 10px;
+width: 70%;
+padding-left: 15%;
+padding-right: 15%;
+}
+
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
