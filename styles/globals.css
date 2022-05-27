@@ -63,10 +63,18 @@ header {
 
 @media all and (max-width : 720px) {
   header {
+    width: 90%;
     margin-left: 16px;
     margin-top: 10px;
   }
 }
+
+/* 
+#Sample{
+  Width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+  } */
 
 /* @media all and (max-width : 720px) {
   header {
