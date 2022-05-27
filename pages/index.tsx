@@ -29,6 +29,7 @@ import Articles from "@/src/components/essays";
 export default function Home({ essays }: { essays: PostMeta[] }) {
   return (
     <>
+
       <h2>Essays </h2>
       <Articles essays={essays} />
     {/* < Footer /> */}

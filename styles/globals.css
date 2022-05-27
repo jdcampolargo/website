@@ -51,7 +51,21 @@ header {
   margin: 0;
   padding: 0;
   margin-top: 50px;
-  margin-left: 0.6em;
+  margin-left: 335px;
+}
+
+/* @media only screen and (max-width: 600px) {
+  header {
+    margin-left: 1rem;
+    margin-top: 10px;
+  }
+} */
+
+@media all and (max-width : 720px) {
+  header {
+    margin-left: 16px;
+    margin-top: 10px;
+  }
 }
 
 /* @media all and (max-width : 720px) {
