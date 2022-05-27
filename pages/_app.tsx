@@ -19,10 +19,10 @@ function MyApp({ Component, pageProps }: AppProps) {
     <article className="index postContent">
     <nav>
       <a href="/about" target="_blank">About</a>
-      <a href="https://twitter.com/jdcampolargo" target="_blank">Twitter</a>
-      <a href="mailto:jdcampolargo@hotmail.com" target="_blank">Email</a>
-      <a href="https://github.com/jdcampolargo" target="_blank">Github</a>
-      <a href="https://juandavidcampolargo.com/rss" target="_blank">RSS</a>
+      <a href="https://twitter.com/jdcampolargo" target="_blank" rel="noreferrer">Twitter</a>
+      <a href="mailto:jdcampolargo@hotmail.com" target="_blank" rel="noreferrer">Email</a>
+      <a href="https://github.com/jdcampolargo" target="_blank" rel="noreferrer">Github</a>
+      <a href="https://juandavidcampolargo.com/rss" target="_blank" rel="noreferrer">RSS</a>
     </nav>
 
 
@@ -48,18 +48,18 @@ function MyApp({ Component, pageProps }: AppProps) {
             <a>  Contact </a>
           </Link>
         </div>
-            <a href="https://twitter.com/jdcampolargo" target="_blank">
+            <a href="https://twitter.com/jdcampolargo" target="_blank" rel="noreferrer">
             <img src="/icons/twitter.png" alt="Twitter" width="30" height="30"/>
           </a>
-          <a href="https://www.linkedin.com/in/juan-david-campolargo-a8a8b817b/" target="_blank">
+          <a href="https://www.linkedin.com/in/juan-david-campolargo-a8a8b817b/" target="_blank" rel="noreferrer">
             <img src="/icons/twitter.png" alt="LinkedIn" width="30" height="30"/>
           </a>
           <a href="
-          https://www.instagram.com/jdcampolargo/" target="_blank">
+          https://www.instagram.com/jdcampolargo/" target="_blank" rel="noreferrer">
             <img src="/icons/twitter.png" alt="Instagram" width="30" height="30"/>
           </a>
           <a href="
-         https://www.youtube.com/channel/UCU87CN_FxGC1q3hzWM0CCDA" target="_blank">
+         https://www.youtube.com/channel/UCU87CN_FxGC1q3hzWM0CCDA" target="_blank" rel="noreferrer">
             <img src="/icons/twitter.png" alt="YouTube" width="30" height="30"/>
           </a>
       </footer>
