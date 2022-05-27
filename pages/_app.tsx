@@ -9,12 +9,22 @@ function MyApp({ Component, pageProps }: AppProps) {
     <div className="zapato">
       <Head>
         <title>Juan David Campolargo</title>
+
       </Head>
       <header>
       <Link href="/">
        <a>Juan David Campolargo</a>
       </Link>
       </header>
+    <article className="index postContent">
+    <nav>
+      <a href="/about" target="_blank">About</a>
+      <a href="https://twitter.com/jdcampolargo" target="_blank">Twitter</a>
+      <a href="mailto:jdcampolargo@hotmail.com" target="_blank">Email</a>
+      <a href="https://github.com/jdcampolargo" target="_blank">Github</a>
+      <a href="https://juandavidcampolargo.com/rss" target="_blank">RSS</a>
+    </nav>
+
 
     <div className="container">
   
@@ -53,6 +63,7 @@ function MyApp({ Component, pageProps }: AppProps) {
             <img src="/icons/twitter.png" alt="YouTube" width="30" height="30"/>
           </a>
       </footer>
+    </article>
     </div>
 
   );
