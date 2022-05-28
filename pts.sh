@@ -1,6 +1,6 @@
 #!/bin/bash
 
 
-git add -u
+git add -A
 git commit -m "Pushing Updates"
 git push origin main
