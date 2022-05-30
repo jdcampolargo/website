@@ -156,9 +156,9 @@ footer{
   font-size: 16px;
   text-align: center;
   color: #dddddd;
-  display: center;
-  justify-content: center;
-  align-items: center;
+  display: left;
+  justify-content: left;
+  align-items: left;
   padding-left: 0.5em;
   padding-right: 0.5em;
   margin-top: 0.5em;
