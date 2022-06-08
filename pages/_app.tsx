@@ -3,6 +3,7 @@ import Link from "next/link";
 import Head from "next/head";
 import "@/styles/globals.css";
 
+
 function MyApp({ Component, pageProps }: AppProps) {
   return (
   
@@ -21,7 +22,7 @@ function MyApp({ Component, pageProps }: AppProps) {
     <article className="index postContent">
     <nav>
       <a href="/about">About</a>
-      <a href="https://twitter.com/jdcampolargo" target="_blank" rel="noreferrer">Twitter</a>
+      <a href="https://twitter.com/jdcampolargo" target="_blank" rel="noreferrer">Twitter</a> 
       <a href="mailto:jdcampolargo@hotmail.com" target="_blank" rel="noreferrer">Email</a>
       <a href="https://github.com/jdcampolargo" target="_blank" rel="noreferrer">Github</a>
       <a href="https://juandavidcampolargo.com/rss" target="_blank" rel="noreferrer">RSS</a>
@@ -35,7 +36,7 @@ function MyApp({ Component, pageProps }: AppProps) {
       
       <Component {...pageProps} />
     </div>
-    <footer>
+    {/* <footer>
         <div>
           <Link href="/">
             <a>Home </a>
@@ -64,7 +65,7 @@ function MyApp({ Component, pageProps }: AppProps) {
          https://www.youtube.com/channel/UCU87CN_FxGC1q3hzWM0CCDA" target="_blank" rel="noreferrer">
             <img src="/icons/twitter.png" alt="YouTube" width="30" height="30"/>
           </a>
-      </footer>
+      </footer> */}
     </article>
     </div>
 

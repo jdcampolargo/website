@@ -37,10 +37,14 @@ export default function Home({ essays }: { essays: PostMeta[] }) {
   );
 }
 
+
 export async function getStaticProps() {
   const essays = getAllEssays()
-    .slice(0, 9)
+    .slice(0, 100000000)
     .map((post) => post.meta);
+
+
+
 
   return { props: { essays } };
 }
