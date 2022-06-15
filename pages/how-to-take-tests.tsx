@@ -92,7 +92,7 @@ function howtotaketests() {
 </ul>
 <p>Inspired by Learning How To Learn, Coursera Course.</p>
 <p>—————</p>
-<p>If you’re into interesting ideas (like the one you just read), sign up for my <a href="https://juandavidcampolargo.substack.com/">newsletter</a>, and I’ll send you new essays right when they come out. Better than having to check the site!</p>  
+<p>If you’re into interesting ideas (like the one you just read), sign up for my <a href="https://juandavidcampolargo.substack.com/" rel="noreferrer">newsletter</a>, and I’ll send you new essays right when they come out. Better than having to check the site!</p>  
     </div>;
 
 
