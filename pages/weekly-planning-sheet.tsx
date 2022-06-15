@@ -19,7 +19,7 @@ This also helps with procrastination. </p>
 
 
 <h3>If you’d like to get similar resources, join hundreds of smart and curious people in my Weekly Memos. I’ll see you there!</h3>
-<p>Join us <a href="http://juandavidcampolargo.com/newsletter" target="_blank" >here</a>.</p>
+<p>Join us <a href="http://juandavidcampolargo.com/newsletter" target="_blank" rel="noreferrer" >here</a>.</p>
   
   
   </div>
