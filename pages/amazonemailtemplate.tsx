@@ -6,6 +6,8 @@ function AmazonEmailTemplate() {
 
       <img src="/images/az1.jpg" alt="Girl in a jacket" width={700} height={1234}/>
 
+      <p> Amazom Email Template</p>
+
       </div>
 
     );
