@@ -1,7 +1,7 @@
 function howtotaketests() {
   return <div>
     <h1>How to take Tests</h1>
-    <p> Taking tests is a skill. Here are some thoughts on how to take tests. <a href="https://www.juandavidcampolargo.com/how-to-take-tests" target= "_blank" rel="noreferrer" >Learn more.</a>  </p>
+    <p> Taking tests is a skill. Here are some thoughts on how to take tests. <a href="https://www.juandavidcampolargo.com/how-to-take-tests" >Learn more.</a>  </p>
     <ul>
 <li><p>Hard Start - Jump Easy</p>
 <ul>
