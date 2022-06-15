@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.juandavidcampolargo.com
+
+# Sitemaps
+Sitemap: https://www.juandavidcampolargo.com/sitemap.xml
