@@ -8,7 +8,7 @@ Be part of a community of hundreds of smart and curious people like you
 <p>&nbsp;  </p>
 
 
-<a href = "http://juandavidcampolargo.substack.com" target = "_blank" rel="noreferrer"> Join us here </a> </h2>
+<a href = "http://juandavidcampolargo.substack.com"> Join us here </a> </h2>
 
 <p>&nbsp;  </p>
 
