@@ -21,7 +21,7 @@ function MyApp({ Component, pageProps }: AppProps) {
       </header>
     <article className="index postContent">
     <nav>
-      <a href="/about">About</a>
+      <a href="https://juandavidcampolargo.com/about">About</a>
       <a href="https://twitter.com/jdcampolargo" target="_blank" rel="noreferrer">Twitter</a> 
       <a href="mailto:jdcampolargo@hotmail.com" target="_blank" rel="noreferrer">Email</a>
       <a href="https://github.com/jdcampolargo" target="_blank" rel="noreferrer">Github</a>
