@@ -121,9 +121,10 @@ header {
 
 nav {
   display: block;
+  font: 5rem;
   margin: 0 auto;
   max-width: 800px;
-  padding: 1rem;  
+  padding: 1rem; 
 }
 
 .index nav a {

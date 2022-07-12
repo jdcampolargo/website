@@ -9,24 +9,24 @@ function MyApp({ Component, pageProps }: AppProps) {
   
     <div className="zapato">
       <Head>
-        <title>Juan David Campolargo</title>
+        {/* <title>Juan David Campolargo</title> */}
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         
 
       </Head>
-      <header>
+      {/* <header>
       <Link href="/">
        <a>Juan David Campolargo</a>
       </Link>
-      </header>
+      </header> */}
     <article className="index postContent">
-    <nav>
+    {/* <nav>
       <a href="https://juandavidcampolargo.com/about">About</a>
       <a href="https://twitter.com/jdcampolargo" target="_blank" rel="noreferrer">Twitter</a> 
       <a href="mailto:jdcampolargo@hotmail.com" target="_blank" rel="noreferrer">Email</a>
       <a href="https://github.com/jdcampolargo" target="_blank" rel="noreferrer">Github</a>
       <a href="https://juandavidcampolargo.com/rss" target="_blank" rel="noreferrer">RSS</a>
-    </nav>
+    </nav> */}
 
 
     <div className="container">
