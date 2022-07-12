@@ -76,12 +76,12 @@ export default function Home() {
 
         <p className="description">
           Get in touch with me on{' '}
-          <a href="https://twitter.com/jdcampolargo" target="_blank">Twitter</a>.
+          <a href="https://twitter.com/jdcampolargo" target="_blank" rel="noreferrer">Twitter</a>.
         </p>
 
 <p className="description">
           You can find my essays{' '}
-          <a href="https://juandavidcampolargo.substack.com/archive" target="_blank">here</a>.
+          <a href="https://juandavidcampolargo.substack.com/archive" target="_blank" rel="noreferrer">here</a>.
         </p>
 
       </main>
