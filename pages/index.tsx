@@ -70,7 +70,7 @@ export default function Home() {
         Rebuilding this website 😉
     </h1>
     <h3>
-    It's taking a long time...Coding is easy. Excellent design is brutal!
+    Coding is easy. Excellent design is brutal!
 
     </h3>
 
