@@ -67,12 +67,12 @@ export default function Home() {
 
       <main>
         <h1 className="title">
-        Rebuilding this website 🫠😉
-</h1>
-<h2>
+        Rebuilding this website 😉
+    </h1>
+    <h3>
     It's taking a long time...Coding is easy. Excellent design is brutal!
 
-</h2>
+    </h3>
 
         <p className="description">
           Get in touch with me on{' '}
