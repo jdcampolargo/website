@@ -67,10 +67,7 @@ export default function Home() {
 
       <main>
         <h1 className="title">
-        Rebuilding this website.{' '}
-  <Link href="https://juandavidcampolargo.substack.com/" target="_blank">
-    <a>🫠😉</a>
-  </Link>
+        Rebuilding this website 🫠😉
 </h1>
 <h2>
     It's taking a long time...Coding is easy. Excellent design is brutal!
